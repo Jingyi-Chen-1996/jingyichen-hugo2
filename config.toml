@@ -1,0 +1,135 @@
+baseurl = "http://www.example.com"
+title = "Jingyi Chen"
+
+theme = "coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Jingyi Chen"
+    description = "Jingyi Chen's personal website"
+    keywords = "blog,developer,personal"
+    info = "WEB AND APPS ENGINEER"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Enter a text here."
+    fixedbarContent = "Do you want to know me more private?→"
+    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Bottom sns share
+    snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true
+    enableFacebookShare = true
+    enableHatenaShare = true
+    enableLineShare = true
+    enableLinkedInShare = true
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/naro143/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/naro143/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/naro143/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 4
+    url = "https://www.linkedin.com/in/naro143/"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Jingyi Chen"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Jingyi Chen"
+            info = "WEB AND APPS ENGINEER"
+            description = "Jingyi Chen's personal website"
+            keywords = "blog,developer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
+
+            [[languages.en.menu.main]]
+                name = "Projects"
+                weight = 3
+                url = "projects"
+            [[languages.en.menu.main]]
+                name = "Contact me"
+                weight = 5
+                url = "contact"
+
+
+    [languages.cn]
+        languagecode = "cn"
+        languagename = "Chinese"
+        title = "陈景毅"
+
+        [languages.cn.params]
+            author = "陈景毅"
+            description = "陈景毅的描述"
+            keywords = "blog,developer,strona domowa"
+            info = "网页和手机应用开发工程师"
+
+        [languages.cn.menu]
+            [[languages.cn.menu.main]]
+                name = "关于我"
+                weight = 1.0
+                url = "cn/about"
+            [[languages.cn.menu.main]]
+                name = "博客"
+                weight = 2.0
+                url = "cn/posts"
+            [[languages.cn.menu.main]]
+                name = "作品"
+                weight = 3
+                url = "cn/projects"
+            [[languages.cn.menu.main]]
+                name = "联系我"
+                weight = 5
+                url = "cn/contact"
