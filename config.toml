@@ -18,7 +18,7 @@ disqusShortname = "yourdiscussshortname"
     author = "Jingyi Chen"
     description = "Jingyi Chen's personal website"
     keywords = "blog,developer,personal"
-    info = "WEB AND APPS ENGINEER"
+    info = "SOFTWEAR DEVELOPMENT STUDENT"
     avatarurl = "images/avatar.jpg"
     footercontent = "Enter a text here."
     fixedbarContent = "Do you want to know me more private?→"
@@ -79,7 +79,7 @@ disqusShortname = "yourdiscussshortname"
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Jingyi Chen"
-            info = "WEB AND APPS ENGINEER"
+            info = "SOFTWEAR DEVELOPMENT STUDENT"
             description = "Jingyi Chen's personal website"
             keywords = "blog,developer,personal"
 
@@ -102,7 +102,7 @@ disqusShortname = "yourdiscussshortname"
             [[languages.en.menu.main]]
                 name = "Contact me"
                 weight = 5
-                url = "contact"
+                url = "contact me/contact me"
 
 
     [languages.cn]
@@ -114,7 +114,7 @@ disqusShortname = "yourdiscussshortname"
             author = "陈景毅"
             description = "陈景毅的描述"
             keywords = "blog,developer,strona domowa"
-            info = "网页和手机应用开发工程师"
+            info = "网页和手机应用开发学生"
 
         [languages.cn.menu]
             [[languages.cn.menu.main]]
